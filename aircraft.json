@@ -1,24 +1,2 @@
-{
-  "name": "Yak-3R CORUPA 580cv",
-  "mass": 2105,
-  "area": 14.83,
-  "dragFactor": 0.00019,
-  "liftFactor": 0.015,
-  "parts": [
-    {
-      "name": "fuselage",
-      "mass": 2105,
-      "origin": [0, 0, 0],
-      "3dmodel": "yak3.glb",
-      "collisions": [
-        {"center": [0, 0, 0], "radius": 2}
-      ]
-    }
-  ],
-  "contactPoints": [
-    {"center": [1.2, 0, -0.8], "radius": 0.3},
-    {"center": [-0.5, -1.2, -0.8], "radius": 0.3},
-    {"center": [-0.5, 1.2, -0.8], "radius": 0.3}
-  ]
-}
+{"name":"Yak-3R","mass":2105,"parts":[{"name":"fuselage","mass":2105,"origin":[0,0,0],"3dmodel":"yak3.glb"}]}
 
