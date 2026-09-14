@@ -1,10 +1,7 @@
 {
-  "id": 3857,
-  "name": "Yak-3R CORUPA 580cv",
-  "author": "Corupa SC - 580cv",
+  "name": "Yak-3R CORUPA",
+  "version": 1,
   "mass": 2105,
-  "dragFactor": 0.00019,
-  "thrust": 580,
-  "model": "spitfire",
-  "description": "Yak-3R Experimental 580cv Corupa SC"
+  "thrust": 12000,
+  "dragFactor": 0.00019
 }
