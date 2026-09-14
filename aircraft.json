@@ -1,0 +1,13 @@
+{
+  "id": 3857,
+  "name": "Yak-3R CORUPA 580cv",
+  "author": "Projeto Corupa SC",
+  "mass": 2105,
+  "thrust": 580,
+  "horsePower": 580,
+  "powerKW": 432,
+  "model": {
+    "file": "yak3.glb"
+  },
+  "description": "Yak-3R Experimental 580cv - Corupa SC - Motor 580cv"
+}
