@@ -3,18 +3,21 @@
   "name": "Yak-3R CORUPA REAL",
   "model": "yak3.glb",
   "scale": 1.0,
-  "cockpit": "cockpit.glb",
-  "contactPoints": [[...]],
+  "mass": 2105,
+  "dragFactor": 0.18,
+  "contactPoints": [
+    [0, -1.2, 0.5],
+    [1.5, -1.2, -2.0],
+    [-1.5, -1.2, -2.0]
+  ],
   "airfoils": {
     "wing": {"area": 14.83, "lift": 0.32, "drag": 0.015},
-    "elevator": {"area": 2.1, "lift": 0.25},
-    "rudder": {"area": 1.2, "lift": 0.2}
+    "elevator": {"area": 2.1, "lift": 0.25, "drag": 0.01},
+    "rudder": {"area": 1.2, "lift": 0.2, "drag": 0.01}
   },
   "engine": {
     "type": "propeller",
     "power": 580,
     "thrust": 4500
-  },
-  "mass": 2105,
-  "dragFactor": 0.18
+  }
 }
