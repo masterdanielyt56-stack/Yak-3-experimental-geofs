@@ -1,2 +1,20 @@
-{"name":"Yak-3R","mass":2105,"parts":[{"name":"fuselage","mass":2105,"origin":[0,0,0],"3dmodel":"yak3.glb"}]}
-
+{
+  "id": 3857,
+  "name": "Yak-3R CORUPA REAL",
+  "model": "yak3.glb",
+  "scale": 1.0,
+  "cockpit": "cockpit.glb",
+  "contactPoints": [[...]],
+  "airfoils": {
+    "wing": {"area": 14.83, "lift": 0.32, "drag": 0.015},
+    "elevator": {"area": 2.1, "lift": 0.25},
+    "rudder": {"area": 1.2, "lift": 0.2}
+  },
+  "engine": {
+    "type": "propeller",
+    "power": 580,
+    "thrust": 4500
+  },
+  "mass": 2105,
+  "dragFactor": 0.18
+}
