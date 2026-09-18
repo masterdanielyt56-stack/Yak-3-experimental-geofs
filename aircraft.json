@@ -1,40 +1,46 @@
 {
-  "name": "Yak-3 Replica BMW 550hp - Corupa SC",
   "id": 9999,
+  "name": "Yak-3 Replica BMW 550hp - Corupa SC",
   "model": "yak3.glb",
   "thumbnail": "thumbnail.jpeg",
-  "general": {
-    "mass": 850,
-    "wingArea": 14.8,
-    "wingSpan": 9.2,
-    "chord": 1.6,
-    "height": 2.4,
-    "length": 8.5
-  },
+  "scale": 1.0,
   "contactPoints": [
-    {"x": 0.8, "y": -0.5, "z": -1.2, "type": 1},
-    {"x": 0.8, "y": 0.5, "z": -1.2, "type": 1},
-    {"x": -3.5, "y": 0, "z": -0.8, "type": 1}
+    {"x": 1.0, "y": -0.5, "z": -1.5, "type": 1, "damping": 0.5},
+    {"x": 1.0, "y": 0.5, "z": -1.5, "type": 1, "damping": 0.5},
+    {"x": -3.8, "y": 0, "z": -0.9, "type": 1, "damping": 0.5}
   ],
-  "animations": [],
+  "aircraft": {
+    "mass": 950,
+    "wingArea": 14.85,
+    "wingSpan": 9.2,
+    "stallSpeed": 32,
+    "cruiseSpeed": 130,
+    "maxSpeed": 180,
+    "enginePower": 550,
+    "engineType": 0
+  },
+  "anims": [
+    {"name": "propeller", "axis": [0, 0, 1], "speed": 50}
+  ],
+  "parts": [
+    {
+      "name": "fuselage",
+      "model": "yak3.glb",
+      "position": [0, 0, 0],
+      "rotation": [0, 0, 0],
+      "scale": [1, 1, 1]
+    }
+  ],
   "aero": {
-    "dragFactor": 0.001,
-    "liftFactor": 0.15,
-    "stallAoA": 15,
-    "zeroLiftAoA": -2
+    "dragFactor": 0.0008,
+    "liftFactor": 0.18,
+    "pitchStability": 1.2,
+    "rollStability": 1.0,
+    "yawStability": 1.0
   },
   "engine": {
-    "type": 0,
-    "thrust": 550,
     "power": 550,
-    "propellerDiameter": 2.5,
-    "propellerCount": 1
-  },
-  "properties": {
-    "isJet": false,
-    "hasAfterburner": false,
-    "maxSpeed": 190,
-    "cruiseSpeed": 150,
-    "stallSpeed": 45
+    "type": 0,
+    "propellerDiameter": 2.4
   }
 }
