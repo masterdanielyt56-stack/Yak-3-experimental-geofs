@@ -2,7 +2,7 @@
   "name": "Yak-3 BMW 550hp - Corupa SC",
   "id": 9999,
   "model": "yak3.glb",
-  "multiplayer": "yak3.glb",
+  "multiplayer": "multiplayer.glb",
   "thumbnail": "thumbnail.jpg",
   "author": "Corupa SC"
 }
