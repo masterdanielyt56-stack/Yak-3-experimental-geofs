@@ -1,77 +1,27 @@
 {
-  "id": "yak3-replica-bmw550-corupa",
-  "name": "Yak-3 Replica 1:1 BMW 550hp",
-  "category": "warbird",
-  "description": "Replica 1:1 Yak-3 - Motor BMW 6 cilindros Turbo 550hp - Projeto Corupá SC - Escala 1:1",
+  "id": "yak3-bmw550-corupa",
+  "name": "Yak-3 Replica BMW 550hp - Corupa",
   "model": "yak3.glb",
   "thumbnail": "thumbnail.jpg",
-  "author": "Projeto Corupá",
-  "version": "1.1",
-  "specs": {
-    "weight": {
-      "empty": 980,
-      "max": 1350,
-      "fuel": 180
-    },
-    "engine": {
-      "type": "propeller",
-      "power": 550,
-      "count": 1,
-      "maxRPM": 5800,
-      "propellerDiameter": 2.4,
-      "fuelConsumption": 65
-    },
-    "dimensions": {
-      "wingSpan": 9.2,
-      "length": 8.5,
-      "wingArea": 14.85
-    },
-    "performance": {
-      "cruiseSpeed": 380,
-      "maxSpeed": 560,
-      "stallSpeed": 135,
-      "climbRate": 18,
-      "range": 650,
-      "ceiling": 6500
-    }
-  },
-  "aerodynamics": {
-    "drag": 0.021,
-    "lift": 0.92,
-    "stallAngle": 15.5,
-    "inducedDrag": 0.065,
-    "parasiteDrag": 0.021,
-    "rollRate": 95,
-    "pitchRate": 45,
-    "yawStability": 0.85
-  },
-  "flightModel": {
-    "type": "taildragger",
-    "wingConfig": "lowWing",
-    "flaps": {
-      "hasFlaps": true,
-      "maxAngle": 25,
-      "liftIncrease": 0.25,
-      "dragIncrease": 0.35
-    },
-    "gear": {
-      "retractable": true,
-      "dragRetracted": 0.002,
-      "dragExtended": 0.018
-    },
-    "propeller": {
-      "efficiency": 0.82,
-      "wash": 0.15
-    }
-  },
-  "cockpit": {
-    "hasCockpit": true,
-    "cameraPosition": [ -0.2, 0.45, 0.15 ],
-    "fov": 75
-  },
-  "contacts": {
-    "main": [0.2, 0, -1.1],
-    "nose": [-2.8, 0, -1.3],
-    "tail": [3.2, 0, -0.3]
+  "author": "masterdanielyt56-stack - Corupa SC",
+  "contact": "Replica 1:1 BMW 550hp",
+  "aircraft": {
+    "mass": 850,
+    "wingArea": 14.85,
+    "wingSpan": 9.2,
+    "zeroFuelMass": 750,
+    "fuelCapacity": 120,
+    "maxThrust": 550,
+    "cruiseSpeed": 150,
+    "maxSpeed": 190,
+    "stallSpeed": 45,
+    "approachSpeed": 65,
+    "engineType": 0,
+    "isJet": false,
+    "hasAfterburner": false,
+    "propellerDiameter": 2.5,
+    "brakeForce": 0.8,
+    "dragFactor": 0.85,
+    "liftFactor": 1.15
   }
 }
