@@ -1,46 +1,8 @@
 {
+  "name": "Yak-3 BMW 550hp - Corupa SC",
   "id": 9999,
-  "name": "Yak-3 Replica BMW 550hp - Corupa SC",
   "model": "yak3.glb",
-  "thumbnail": "thumbnail.jpeg",
-  "scale": 1.0,
-  "contactPoints": [
-    {"x": 1.0, "y": -0.5, "z": -1.5, "type": 1, "damping": 0.5},
-    {"x": 1.0, "y": 0.5, "z": -1.5, "type": 1, "damping": 0.5},
-    {"x": -3.8, "y": 0, "z": -0.9, "type": 1, "damping": 0.5}
-  ],
-  "aircraft": {
-    "mass": 950,
-    "wingArea": 14.85,
-    "wingSpan": 9.2,
-    "stallSpeed": 32,
-    "cruiseSpeed": 130,
-    "maxSpeed": 180,
-    "enginePower": 550,
-    "engineType": 0
-  },
-  "anims": [
-    {"name": "propeller", "axis": [0, 0, 1], "speed": 50}
-  ],
-  "parts": [
-    {
-      "name": "fuselage",
-      "model": "yak3.glb",
-      "position": [0, 0, 0],
-      "rotation": [0, 0, 0],
-      "scale": [1, 1, 1]
-    }
-  ],
-  "aero": {
-    "dragFactor": 0.0008,
-    "liftFactor": 0.18,
-    "pitchStability": 1.2,
-    "rollStability": 1.0,
-    "yawStability": 1.0
-  },
-  "engine": {
-    "power": 550,
-    "type": 0,
-    "propellerDiameter": 2.4
-  }
+  "multiplayer": "yak3.glb",
+  "thumbnail": "thumbnail.jpg",
+  "author": "Corupa SC"
 }
