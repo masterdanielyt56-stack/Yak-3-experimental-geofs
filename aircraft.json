@@ -1,22 +1,77 @@
 {
-  "id": 3857,
-  "name": "Yak-3R CORUPA REAL",
+  "id": "yak3-replica-bmw550-corupa",
+  "name": "Yak-3 Replica 1:1 BMW 550hp",
+  "category": "warbird",
+  "description": "Replica 1:1 Yak-3 - Motor BMW 6 cilindros Turbo 550hp - Projeto Corupá SC - Escala 1:1",
   "model": "yak3.glb",
-  "cockpit": "yak3.glb",
-  "scale": 1.0,
-  "mass": 2105,
-  "dragFactor": 0.18,
-  "liftFactor": 0.32,
-  "power": 580,
-  "thrust": 4500,
-  "wingArea": 14.83,
-  "wingSpan": 9.2,
-  "animations": [
-    {"name": "propeller", "type": "propeller", "axis": [0,0,1], "speed": 100}
-  ],
-  "contactPoints": [
-    {"x": 0, "y": -1.2, "z": 0.5},
-    {"x": 1.5, "y": -1.2, "z": -2.0},
-    {"x": -1.5, "y": -1.2, "z": -2.0}
-  ]
+  "thumbnail": "thumbnail.jpg",
+  "author": "Projeto Corupá",
+  "version": "1.1",
+  "specs": {
+    "weight": {
+      "empty": 980,
+      "max": 1350,
+      "fuel": 180
+    },
+    "engine": {
+      "type": "propeller",
+      "power": 550,
+      "count": 1,
+      "maxRPM": 5800,
+      "propellerDiameter": 2.4,
+      "fuelConsumption": 65
+    },
+    "dimensions": {
+      "wingSpan": 9.2,
+      "length": 8.5,
+      "wingArea": 14.85
+    },
+    "performance": {
+      "cruiseSpeed": 380,
+      "maxSpeed": 560,
+      "stallSpeed": 135,
+      "climbRate": 18,
+      "range": 650,
+      "ceiling": 6500
+    }
+  },
+  "aerodynamics": {
+    "drag": 0.021,
+    "lift": 0.92,
+    "stallAngle": 15.5,
+    "inducedDrag": 0.065,
+    "parasiteDrag": 0.021,
+    "rollRate": 95,
+    "pitchRate": 45,
+    "yawStability": 0.85
+  },
+  "flightModel": {
+    "type": "taildragger",
+    "wingConfig": "lowWing",
+    "flaps": {
+      "hasFlaps": true,
+      "maxAngle": 25,
+      "liftIncrease": 0.25,
+      "dragIncrease": 0.35
+    },
+    "gear": {
+      "retractable": true,
+      "dragRetracted": 0.002,
+      "dragExtended": 0.018
+    },
+    "propeller": {
+      "efficiency": 0.82,
+      "wash": 0.15
+    }
+  },
+  "cockpit": {
+    "hasCockpit": true,
+    "cameraPosition": [ -0.2, 0.45, 0.15 ],
+    "fov": 75
+  },
+  "contacts": {
+    "main": [0.2, 0, -1.1],
+    "nose": [-2.8, 0, -1.3],
+    "tail": [3.2, 0, -0.3]
+  }
 }
